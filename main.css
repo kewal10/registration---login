@@ -1,0 +1,51 @@
+body {
+    padding-top: 100px;
+}
+
+.links-panel {
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    padding: 25px;
+}
+
+.links-panel > .panel-heading {
+	background-color: #FFF;
+    text-align: center;
+    color: #00415d;
+    padding-bottom: 20px;
+}
+
+.form-control {
+    padding: 1rem;
+}
+
+.links-panel > .panel-heading a {
+	color: #666;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+}
+
+.links-panel > .panel-heading a.active {
+    font-weight: 900;
+	color: #0091EA;
+}
+
+#logged-in {
+    margin-top: 60px;
+}
+
+.btn {
+	transition: all .3s ease-in;
+}
+
+.alert {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.alert-danger {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #a94442;
+}
